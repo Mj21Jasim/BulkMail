@@ -37,7 +37,7 @@ function Dashboard() {
       setError('');
 
       const response = await axios.get(
-        'http://localhost:5000/api/emails/stats'
+        'https://bulkmail-i72u.onrender.com/api/emails/stats'
       );
 
       setStats({

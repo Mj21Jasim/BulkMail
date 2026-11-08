@@ -56,7 +56,7 @@ function ComposeEmail() {
       setMessage('');
 
       const response = await axios.post(
-        'http://localhost:5000/api/emails/send',
+        'https://bulkmail-i72u.onrender.com/api/emails/send',
         {
           subject,
           body,

@@ -22,7 +22,7 @@ function EmailHistory() {
       setError('');
 
       const response = await axios.get(
-        'http://localhost:5000/api/emails/history'
+        'https://bulkmail-i72u.onrender.com/api/emails/history'
       );
 
       setEmails(response.data.emails);
